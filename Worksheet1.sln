@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Worksheet1", "Worksheet1\Worksheet1.vcxproj", "{01BC111F-1CB6-4BF7-8C8C-E858E81236C8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Worksheet1.2", "Worksheet1.2\Worksheet1.2.vcxproj", "{36601CA5-B8A2-433F-B015-0B0583F4FFBB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Worksheet1.1", "Worksheet1.1\Worksheet1.1.vcxproj", "{01BC111F-1CB6-4BF7-8C8C-E858E81236C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,14 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36601CA5-B8A2-433F-B015-0B0583F4FFBB}.Debug|x64.ActiveCfg = Debug|x64
+		{36601CA5-B8A2-433F-B015-0B0583F4FFBB}.Debug|x64.Build.0 = Debug|x64
+		{36601CA5-B8A2-433F-B015-0B0583F4FFBB}.Debug|x86.ActiveCfg = Debug|Win32
+		{36601CA5-B8A2-433F-B015-0B0583F4FFBB}.Debug|x86.Build.0 = Debug|Win32
+		{36601CA5-B8A2-433F-B015-0B0583F4FFBB}.Release|x64.ActiveCfg = Release|x64
+		{36601CA5-B8A2-433F-B015-0B0583F4FFBB}.Release|x64.Build.0 = Release|x64
+		{36601CA5-B8A2-433F-B015-0B0583F4FFBB}.Release|x86.ActiveCfg = Release|Win32
+		{36601CA5-B8A2-433F-B015-0B0583F4FFBB}.Release|x86.Build.0 = Release|Win32
 		{01BC111F-1CB6-4BF7-8C8C-E858E81236C8}.Debug|x64.ActiveCfg = Debug|x64
 		{01BC111F-1CB6-4BF7-8C8C-E858E81236C8}.Debug|x64.Build.0 = Debug|x64
 		{01BC111F-1CB6-4BF7-8C8C-E858E81236C8}.Debug|x86.ActiveCfg = Debug|Win32
