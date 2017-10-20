@@ -12,57 +12,41 @@
 int main()
 
 {
-
+	// Variables
 	int guess = 0;
+	int end = 0;
+	char play_again = 'Y';
 
-	int end;
 
-	char playAgain = 'Y';
-
-	while (playAgain == 'Y' || playAgain == 'y')
-
+	while (play_again == 'Y' || play_again == 'y')
 	{
+		std::srand(std::time(0)); 
 
-
-		std::srand(std::time(0)); //use current time as seed for random generator
-
-		int generatedNum = std::rand() % 10 + 1;
+		int generated_num = std::rand() % 10 + 1;
 
 		std::cout << "Random value on [0 " << RAND_MAX << "]: \n ";
-
 
 		std::cout << "Enter guess: ";
 
 		std::cin >> guess;
 
-
-		if (guess == generatedNum)
-
+		if (guess == generated_num)
 		{
-
 			std::cout << "Congrats you win \n\n";
 
 			std::cout << "Do you want to play again (Y/N)? ";
 
-			std::cin >> playAgain;
-
+			std::cin >> play_again;
 		}
-
 		else
-
 		{
-
-			std::cout << "The value was " << generatedNum << "\n\n";
+			std::cout << "The value was " << generated_num << "\n\n";
 
 			std::cout << "Do you want to play again (Y/N)? ";
 
-			std::cin >> playAgain;
-
+			std::cin >> play_again;
 		}
-
 	}
-
 	return 0;
-
 }
 
